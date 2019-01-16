@@ -7,18 +7,6 @@ import org.springframework.stereotype.Component;
 @Component
 @PropertySource("classpath:Application.properties")
 public class Actor {
-//    @Autowired
-//
-//    @Value("${actor.name}")
-//    private String name;
-//
-//
-//    @Value("${actor.gender}")
-//    private String gender;
-//
-//
-//    @Value("${actor.age}")
-//    private int age;
 
    private String name;
    private String gender;
